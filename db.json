@@ -91,15 +91,6 @@
       "image": "https://picsum.photos/200"
     },
     {
-      "id": 11,
-      "name": "Havock",
-      "type": "casual_dining",
-      "rating": 1,
-      "number_of_votes": 373,
-      "price_starts_from": 360,
-      "image": "https://picsum.photos/200"
-    },
-    {
       "id": 12,
       "name": "von Grollmann",
       "type": "ethnic",
@@ -179,6 +170,24 @@
       "number_of_votes": 497,
       "price_starts_from": 925,
       "image": "https://picsum.photos/200"
+    },
+    {
+      "name": "Some New Restuant",
+      "type": "cafe",
+      "rating": 4.5,
+      "number_of_votes": 909,
+      "price_starts_from": 500,
+      "image": "https://picsum.photos/200",
+      "id": 21
+    },
+    {
+      "name": "Some New Restuant",
+      "type": "cafe",
+      "rating": 4.5,
+      "number_of_votes": 909,
+      "price_starts_from": 500,
+      "image": "https://picsum.photos/200",
+      "id": 22
     }
   ]
 }

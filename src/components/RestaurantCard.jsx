@@ -1,10 +1,12 @@
 function RestaurantCard({
+  id,
   name,
   image,
   type,
   rating,
   number_of_votes,
   price_starts_from,
+  deleteRestaurant,
 }) {
   return (
     <div
@@ -17,6 +19,9 @@ function RestaurantCard({
       <p>Rating : {rating}</p>
       <p>Number of votes : {number_of_votes}</p>
       <p>Price starts from : {price_starts_from}</p>
+      <button onClick={() => {
+        deleteRestaurant(id)
+      } }>DELETE</button>
     </div>
   );
 }
